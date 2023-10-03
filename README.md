@@ -1,3 +1,8 @@
+# nodecgyugioh
+set database in nodecg root assets directory
+https://github.com/Wildric-Auric/YuGiOh-Database
+./assets/YuGiOh-Database-main/
+
 # NodeCG Bundle Template
 
 This is an unofficial [NodeCG](http://github.com/nodecg/nodecg) bundle template based on TypeScript, React, Vite originated from RTA in Japan Layouts.  
