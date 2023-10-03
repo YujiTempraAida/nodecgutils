@@ -4,7 +4,7 @@ import {MessageMap} from "../nodecg/messages";
 import {Configschema} from "../nodecg/generated/configschema";
 
 export type NodeCG = CreateNodecgInstance<
-	"nodecgbundletemplate",
+	"nodecgyugioh",
 	Configschema,
 	ReplicantMap,
 	MessageMap

@@ -5,13 +5,13 @@ import {MessageMap} from "../nodecg/messages";
 
 declare global {
 	const nodecg: CreateNodecgInstance<
-		"nodecgbundletemplate",
+		"nodecgyugioh",
 		Configschema,
 		ReplicantMap,
 		MessageMap
 	>;
 	const NodeCG: CreateNodecgConstructor<
-		"nodecgbundletemplate",
+		"nodecgyugioh",
 		Configschema,
 		ReplicantMap,
 		MessageMap

@@ -1,22 +1,24 @@
-import omnEgao from "../images/OMNegao.png";
-
 type Props = {
-	width: number,
-	height: number,
-	left: string,
-	top: string
-}
+	width: number;
+	height: number;
+	left: string;
+	top: string;
+	id: number;
+};
+
+const imgFolderPath =
+	"../../../../../../assets/YuGiOh-Database-main/CardImages/";
 
 export const OmnEgao = (props: Props) => {
 	return (
 		<img
-			src={omnEgao}
+			src={imgFolderPath + props.id + ".png"}
 			width={props.width}
 			height={props.height}
 			style={{
-				position:"absolute",
+				position: "absolute",
 				left: props.left,
-				top: props.top
+				top: props.top,
 			}}
 		></img>
 	);

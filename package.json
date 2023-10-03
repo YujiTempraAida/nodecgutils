@@ -1,5 +1,5 @@
 {
-	"name": "nodecgbundletemplate",
+	"name": "nodecgyugioh",
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
@@ -33,6 +33,7 @@
 		"@twurple/api": "^5.3.4",
 		"@twurple/auth": "^5.3.4",
 		"app-root-path": "^3.1.0",
+		"axios": "^1.5.1",
 		"better-sqlite3": "^8.6.0",
 		"date-fns": "^2.30.0",
 		"express": "^4.18.2",
@@ -51,6 +52,7 @@
 		"@mui/icons-material": "^5.11.16",
 		"@mui/material": "^5.12.3",
 		"@types/app-root-path": "^1.2.5",
+		"@types/better-sqlite3": "^7.6.5",
 		"@types/node": "^18.16.4",
 		"@types/react": "^18.2.5",
 		"@types/react-dom": "^18.2.3",
@@ -92,30 +94,31 @@
 		"compatibleRange": "^1.0.0 || ^2.0.0",
 		"dashboardPanels": [
 			{
-				"name": "omnTelop",
-				"title": "omnTelop",
-				"file": "omnTelop.html",
-				"headerColor": "#00BEBE",
-				"width": 3,
-				"workspace": "0-sample"
-			},
-			{
 				"name": "scoreboard",
 				"title": "scoreboard",
 				"file": "scoreboard.html",
 				"headerColor": "#00BEBE",
 				"width": 3,
 				"workspace": "0-sample"
+			},
+			{
+				"name": "yugiohCard",
+				"title": "YugiohCard",
+				"file": "yugiohCard.html",
+				"headerColor": "#00BEBE",
+				"width": 4,
+				"height": 4,
+				"workspace": "0-sample"
 			}
 		],
 		"graphics": [
 			{
-				"file": "omnTelop.html",
+				"file": "scoreboard.html",
 				"width": 1920,
 				"height": 1080
 			},
 			{
-				"file": "scoreboard.html",
+				"file": "yugiohCard.html",
 				"width": 1920,
 				"height": 1080
 			}
